@@ -1,0 +1,118 @@
+ // Hedaer Text For Descitop  AND Mobile 
+Logo = SomaliProgrammers img
+Menu Links = 
+1 = Home
+2 = Casharo
+3 = Community
+4 = Sign Up
+5 = Login
+ 
+
+ ===============================================================================================================
+
+ //  Hero Section text 
+  h1 = Barta Barashada Cilmiga Tiknolojiga Si Bilaash Ah
+  p = Somali Programmers waxay kuu diyaarisay casharo aad ku baran kartid qaybaha kala duwan ee tiknolojiga. Dhamaan waxa ku jiro shabakadaan waa bilaash lakin lama ogola in meel kale loo qaado.
+  button = Casharada
+================================================================================================================
+// Service Section 
+
+// starOne 
+span = Casharo 
+p = Waxaan heynaa casharo bilaash ah.
+
+// starTwo 
+span = Wada Tashi
+p = Ku soo biir qaybta tashiga, jawaabo ka hel.
+
+// starThree
+span = Nagu Soo Biir
+p = Ka mid noqo bulshada Somalida oo horay u socoto.
+
+================================================================================================================
+
+// Section Casharadii Ugu Danbeeyay
+ Heading Text = Casharadii Ugu Danbeeyay
+ 
+ // 6th cards 
+
+👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
+ //   cardOne 
+img = 
+h3 = Learn Flexbox
+span = 610 STUDENTS ENROLLED
+p = FlexBox waa hab aad ku habeyn kartid website-kaada adigoo CSS isticmaalayo. Waxay xoog ku leedahay dhinaca Layout ama ah habka wax u muuqdaan.
+button = BARO HADA
+
+//   cardTwo 
+img = 
+h3 = React JS Project
+span = 522 STUDENTS ENROLLED
+p = Casharkaan waxaan dhiseynaa To Do app oo aad ku fahmi doontid qaybaha React JS ay ka koobantahay sida Components, state iyo hooks.
+button = BARO HADA
+
+//   cardThree
+img = 
+h3 = Beginner Javascript
+span = 1302 STUDENTS ENROLLED
+p = Baro aas aaska luuqada Javascript, casharadaan waxay muhiim u yihiin qof waligiis aan horay programming u sameynin.
+button = BARO HADA
+
+//   cardFour
+img = 
+h3 = BARO GIT ESSENTIALS
+span = 353 STUDENTS ENROLLED
+p = GIT waa system qof kasta oo developer ah inuu barto uu u baahanyahay. Hadaa dad badan aad la shaqeyneysid, waa qasab inaa GIT isticmaasho.
+button = BARO HADA
+
+//   cardFive
+img = 
+h3 = BARO NPM
+span = 202 STUDENTS ENROLLED
+p = npm waxee kuu fududeeney marka dhiiseeso ablikeeshan sida reactjs ama vuejs iyo kuwa kale javascript casharkaan ayaa ka fahmeysa siida loo istacmaalo node package manager soo gaal waa bilaash
+button = BARO HADA
+
+//   cardSix
+img = 
+h3 = Full SQL Course
+span = 972 STUDENTS ENROLLED
+p = SQL waa luuqada lagula hadlo database yada si aad waxaad dooneyso uu kuugu qabto. Waa luuqad qof kasta oo developer ah uu u baahanyahay inuu yaqaano.
+button = BARO HADA
+================================================================================================================
+
+Section Ka mid Noqo Hormarka Aduunka
+
+Heading Text = Ka mid Noqo Hormarka Aduunka
+p = Aduunka wuxuu u socdaa dhinaca tiknolojiyada, waxaan rabnaa inaan u horseedno bulshada Soomaalida inay la jaanqaadaan hormarkaas. Hababkaan hoos ku xusan ayaan rabnaa inaan bulshada ku hormarino.
+ 
+twoFlex Items 
+
+img = 
+ Card for FaQ and Answers  
+
+FaQ 1 = Faafinta Cilmiga
+Answers = SP waxay soo gudbineysaa casharo si fiican loo diyaariyay oo loogu tala galay inay ardayga bilowga ah ka dhigto mid aqoontiisa/aqoonteeda meel fog gaarsiin karto.
+
+FaQ 2 = Taageero Dhan
+Answers = Arday kasta wuxuu helaayaa taageero dhan oo markasta looga jawaabi karo su’aal kastoo uu qabo. Waxaan ka rajeynaynaa dhamaan ardayda inay ka mid noqdaan kuwo caawiyo ardayda ka hooseyso.
+
+FaQ 3 = Soo Bandhig
+Answers = SP waxay xooga saareysaa inay soo bandhigto aqoonta Soomaalida meelkastoo ay joogaan. Waxaan dooneynaa in dhalinyarada ay ogaadaan in aduunka aqoontooda u baahanyahay. Anagana aan halkaan taageero ula joogno.
+================================================================================================================
+
+
+    <div class="flex justify-between items-center cursor-pointer mt-8 border-b border-slate-700">
+            <h2 class="text-xl font-semibold">What is Tailwind CSS?</h2>
+            <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+        </div>
+        <p id="answer-1" class="hidden text-gray-700 mt-2 ">Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.</p>
+        <div class="flex justify-between items-center cursor-pointer mt-8 border-b border-black ">
+          <h2 class="text-xl font-semibold">How do I install Tailwind CSS?</h2>
+          <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+      </div>
+      <p id="answer-2" class="hidden  text-gray-700 mt-2">You can install Tailwind CSS via npm, CDN, or using a pre-built template. Refer to the official documentation for detailed instructions.</p>
+      <div class="flex justify-between items-center cursor-pointer mt-8 border-b border-black ">
+        <h2 class="text-xl font-semibold">Can I customize Tailwind CSS?</h2>
+        <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    </div>
+    <p id="answer-3" class="hidden text-gray-700 mt-2 transition-all duration-500 ease-in-out ">Yes, Tailwind CSS is highly customizable. You can customize it by modifying the Tailwind configuration file to fit your design needs.</p>
