@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prebuild": "chmod +x ./node_modules/.bin/tailwindcss",
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css",
     "start": "node index.js"
   },
   "keywords": [],
