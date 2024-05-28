@@ -1,1 +1,18 @@
+{
+  "name": "somaliprogrammers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "chmod +x ./node_modules/.bin/tailwindcss",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
 
