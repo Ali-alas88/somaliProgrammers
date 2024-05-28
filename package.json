@@ -1,16 +1,1 @@
-{
-  "name": "somaliprogrammers",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./src/output.css",
-    "start": "node index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.4.3"
-  }
-}
+
