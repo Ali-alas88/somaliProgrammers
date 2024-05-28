@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-     "prebuild": "chmod +x ./node_modules/.bin/tailwindcss",
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css"
-  },
+ 
   "keywords": [],
   "author": "",
   "license": "ISC",
